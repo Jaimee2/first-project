@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { DateComponent } from './date/date.component';
 import { AppAddressCardComponent } from './app-address-card/app-address-card.component';
+import { AddressCardComponent } from './address-card/address-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
     DateComponent,
-    AppAddressCardComponent
+    AppAddressCardComponent,
+    AddressCardComponent
   ],
   imports: [
     BrowserModule,

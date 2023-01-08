@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppAddressCardComponent } from './app-address-card.component';
+import { AddressCardComponent } from './address-card.component';
 
-describe('AppAddressCardComponent', () => {
-  let component: AppAddressCardComponent;
-  let fixture: ComponentFixture<AppAddressCardComponent>;
+describe('AddressCardComponent', () => {
+  let component: AddressCardComponent;
+  let fixture: ComponentFixture<AddressCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AppAddressCardComponent ]
+      declarations: [ AddressCardComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AppAddressCardComponent);
+    fixture = TestBed.createComponent(AddressCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
